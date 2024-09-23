@@ -2,7 +2,12 @@
 //projects.jsx
 
 const Projects = () => {
-    return <p>My Projects!</p>
+    return (
+    <>
+    <h3>Check out some select projects!</h3>
+    <p>My Projects!</p>
+    </>
+    );
 };
 
 export default Projects;

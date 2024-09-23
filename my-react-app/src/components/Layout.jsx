@@ -2,9 +2,11 @@
 //layout.jsx
 
 import { Link } from 'react-router-dom';
+import image from '../logo.png'
 export default function Layout() {
  return (
  <>
+ <img src={image} alt="JF Logo"></img>
  <h1>Jake's Portfolio</h1>
  <nav>
  <Link to="/">Home</Link> | 
