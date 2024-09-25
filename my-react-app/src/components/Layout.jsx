@@ -2,7 +2,8 @@
 //layout.jsx
 
 import { Link } from 'react-router-dom';
-import image from '../logo.png'
+import image from '../logo.png';
+
 export default function Layout() {
  return (
  <>

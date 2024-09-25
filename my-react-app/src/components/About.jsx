@@ -1,7 +1,7 @@
 //Jacob Ferreira - 301452914
 //about.jsx
-import image from '../linkedin_pic.jpg'
-import resume from '../Resume.pdf'
+import image from '../linkedin_pic.jpg';
+import resume from '../Resume.pdf';
 
 const About = () => {
     return (

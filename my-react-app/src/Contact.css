@@ -1,0 +1,41 @@
+/* 
+Jacob Ferreira
+301452914
+
+Contact.css
+ */
+
+
+.form {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    color: #795593;
+    text-align: center;
+}
+input {
+    border-radius: 5px;
+    width: 80%;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+input:hover {
+    border-color: #646cff;
+}
+textarea {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+textarea:hover {
+    border-color: #646cff;
+}
+.email {
+    margin-left: 32px;
+}
+.phone {
+    margin-left: 2px;
+}
+.button {
+    width: 50%;
+}
