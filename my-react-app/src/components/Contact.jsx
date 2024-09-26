@@ -1,7 +1,9 @@
 //Jacob Ferreira - 301452914
+//Date: 2024-09-16
 //contact.jsx
 import '../Contact.css';
 
+//Function returning the content of the Contact page
 const Contact = () => {
     return (
         <>
@@ -34,6 +36,10 @@ const Contact = () => {
                 <input class="button" type="reset"/>
             </form>
         </div>
+        <footer>
+            <hr/>
+            <h6>&copy;Copyright Jacob Ferreira - COMP229 - Fall 2024&copy;</h6>
+        </footer>
         </>
     );
 };

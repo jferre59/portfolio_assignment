@@ -70,3 +70,6 @@ button:focus-visible {
 img {
   border-radius: 10px;
 }
+footer {
+  margin-top: 25px;
+}

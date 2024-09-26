@@ -1,3 +1,7 @@
+//Jacob Ferreira - 301452914
+//Date: 2024-09-16
+//MainRouter.jsx
+
 import { Route, Routes } from 'react-router-dom'
 import Home from './src/components/Home'
 import Layout from './src/components/Layout'
@@ -6,6 +10,7 @@ import Contact from './src/components/Contact'
 import Projects from './src/components/Projects'
 import Services from './src/components/Services'
 
+//Function routing the buttons on the nav bar to their respective pages
 const MainRouter = () => {
  return (<div>
  <Layout/>

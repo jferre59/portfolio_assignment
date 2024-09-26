@@ -1,35 +1,38 @@
 /* 
 Jacob Ferreira
 301452914
+Date: 2024-09-25
 
 Contact.css
  */
 
 
-.form {
+.form { /* Structuring the form */
     margin-right: auto;
     margin-left: auto;
     width: 80%;
     color: #795593;
     text-align: center;
 }
-input {
+input { /*Style for the input fields*/
     border-radius: 5px;
     width: 80%;
     padding-bottom: 2px;
     margin-bottom: 5px;
     margin-left: 8px;
 }
-input:hover {
+input:hover { /*Style for the input fields hover*/
     border-color: #646cff;
 }
-textarea {
+textarea { /*Style for the message field*/
     border-radius: 10px;
     margin-bottom: 20px;
 }
-textarea:hover {
+textarea:hover { /*Style for the message field hover*/
     border-color: #646cff;
 }
+
+/* Aligning the fields and shrinking the buttons */
 .email {
     margin-left: 32px;
 }

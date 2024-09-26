@@ -1,9 +1,11 @@
 //Jacob Ferreira - 301452914
+//Date: 2024-09-16
 //layout.jsx
 
 import { Link } from 'react-router-dom';
 import image from '../logo.png';
 
+//Function returning the layout of the header & nav bar
 export default function Layout() {
  return (
  <>

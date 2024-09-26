@@ -11,6 +11,10 @@ const Home = () => {
     </p>
     <h3>My Mission Statement:</h3>
     <em>To learn and grow, delivering high quality, value-adding software solutions along the way.</em>
+    <footer>
+        <hr/>
+        <h6>&copy;Copyright Jacob Ferreira - COMP229 - Fall 2024&copy;</h6>
+    </footer>
     </>
     );
 };
