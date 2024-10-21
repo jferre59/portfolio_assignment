@@ -1,0 +1,11 @@
+const express = require('express')
+const userCntrl = require('../controllers/Users.js')
+const router = express.Router()
+router.route('/api/users').post(userCntrl.create)
+router.route('/api/users').get(userCntrl.list)
+router.param('userId',userCntrl.userByID)
+router.route('/api/users/:userId').get(userCntrl.read)
+router.route('/api/users/:userId').put(userCntrl.update)
+router.route('/api/users/:userId').delete(userCntrl.remove)
+router.route('/api/users/').delete(userCntrl.removeAll)
+module.exports = router;
