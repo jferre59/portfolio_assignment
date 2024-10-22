@@ -1,3 +1,7 @@
+//Jacob Ferreira - 301452914
+//Date: 2024-10-22
+//asset-router.js from code provided in class
+
 const express = require("express");
 const router = express.Router();
 const imageRegex = /\/.+\.(svg|png|jpg|png|jpeg)$/;

@@ -1,3 +1,7 @@
+//Jacob Ferreira - 301452914
+//Date: 2024-10-22
+//config.js modified from code provided in class
+
 const config = {
     env: process.env.NODE_ENV || 'development',
     port: process.env.port || 3000,

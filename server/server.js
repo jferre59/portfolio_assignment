@@ -1,3 +1,7 @@
+//Jacob Ferreira - 301452914
+//Date: 2024-10-22
+//server.js modified from code provided in class
+
 const express = require('express')
 const path = require('path')
 const cookieParser = require('cookie-parser');
@@ -9,7 +13,7 @@ const assetsRouter = require("./asset-router");
 const app = express()
 
 app.get('/', function (req, res) {
-  res.send('Welcome to DressStore Application.')
+  res.send('Welcome to DressStore Application.') //Message to display on server page as required by assignment
 })
 
 // config
@@ -20,7 +24,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect(config.mongoUri,{useNewUrlParser:true,
   useUnifiedTopology:true
 })
-.then(()=>console.log("Database connected Sucessfully"))
+.then(()=>console.log("Database connected Sucessfully")) // indicating in console whether database is connecting properly
 .catch(err => console.error(`Connection Failed:$(err.message)`));
 
 app.listen(config.port,()=>{

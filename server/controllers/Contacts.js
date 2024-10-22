@@ -1,3 +1,7 @@
+//Jacob Ferreira - 301452914
+//Date: 2024-10-22
+//contacts.js modified from code provided in class
+
 const Contact = require('../models/Contacts.js');
 
 const create = async(req,res) => {
@@ -72,6 +76,7 @@ const remove = async(req,res) => {
         })   
     }
 }
+//function to remove all contacts
 const removeAll = async(req,res) => {
     try {
         await Contact.deleteMany();

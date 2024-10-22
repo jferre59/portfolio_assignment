@@ -1,3 +1,7 @@
+//Jacob Ferreira - 301452914
+//Date: 2024-10-22
+//users.js modified from code provided in class
+
 const mongoose = require('mongoose');
 const UsersSchema = new mongoose.Schema({
     name:{
